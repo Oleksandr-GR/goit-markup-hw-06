@@ -468,18 +468,17 @@
               ></textarea>
             </div>
 
-            <div class="form-block-checkbox">
-              <input
-                class="form-input-checkbox"
-                id="form-checkbox"
-                type="checkbox"
-                name="checkbox"
-              />
-              <label class="form-label-checkbox" for="form-checkbox"
-                >Соглашаюсь с рассылкой и принимаю
-                <a class="form-conditions" href="#">Условия договора</a></label
-              >
-            </div>
+            <label class="form-label-checkbox">
+              <input class="form-input-checkbox" type="checkbox" name="checkbox" />
+              <svg class="check-image">
+                <use class="check-svg" href="./images/icons/symbol-defs.svg#check"></use>
+              </svg>
+              <svg class="check-form-image">
+                <use href="./images/icons/symbol-defs.svg#check-form"></use>
+              </svg>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="form-conditions" href="#">Условия договора</a>
+            </label>
 
             <button class="form-button" type="submit">Отправить</button>
           </form>
